@@ -38,13 +38,34 @@ export default function Hero() {
           </h1>
         </div>
 
-        <p className="mx-auto mt-8 max-w-2xl text-center text-gray-600">
+        <p className="text-[19px] mx-auto max-w-2xl text-center">
           We are a team of strategists, designers, communicators,
           researchers. Together, we believe that progress only happens
           when you refuse to play things safe.
         </p>
       </div>
 
+      <div>
+        <img
+            src="/svg/black-squiggle.svg"
+            alt=""
+            className="absolute left-17 top-97 w-[74px] scale-y-[0.9] -translate-x-1/2"
+          />
+          <img
+            src="/svg/red-squiggle.svg"
+            alt=""
+            className="absolute left-7 top-99 w-[58px] scale-y-[0.9] -translate-x-1/2"
+          />
+      </div>
+
+        <div className="flex w-max animate-marquee gap-8 mt-18">
+          <img src="/images/image-hero.png" alt="" className="w-[1500px]" />
+          <img src="/images/image-hero.png" alt="" className="w-[1500px]" />
+          <img src="/images/image-hero.png" alt="" className="w-[1500px]" />
+          <img src="/images/image-hero.png" alt="" className="w-[1500px]" />
+        </div>
+
     </section>
+
   );
 }

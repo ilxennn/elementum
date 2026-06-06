@@ -14,7 +14,7 @@ export default function Navbar() {
   </ul>
 
   <button className="absolute right-0 top-1/2 -translate-y-1/2 px-0">
-    <img src="/menuicon.png" alt="Menu" width={40} height={24} />
+    <img src="/images/menuicon.png" alt="Menu" width={40} height={24} />
   </button>
 </nav>
   );
