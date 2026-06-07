@@ -8,10 +8,17 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main>
+    <main className="relative overflow-hidden">
       <Navbar />
       <Hero />
       <FeatureSection />
+      <div>
+        <img
+            src="/svg/redline-top.svg"
+            alt=""
+            className="absolute mx-0 right-[-40px] top-400 w-[1300px] z-0"
+          />
+      </div>
       <Services />
       <Testimonials />
       <Newsletter />
