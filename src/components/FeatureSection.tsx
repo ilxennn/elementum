@@ -33,7 +33,7 @@ export default function FeatureSection() {
             <img
               src="/svg/arrow.svg"
               alt=""
-              className="absolute left-55 top-[475px] w-[120px]"
+              className="absolute left-55 top-[486px] w-[120px]"
             />
           </button>
         </div>
@@ -46,7 +46,7 @@ export default function FeatureSection() {
             className="absolute right-[-60px] top-9 w-[180px] z-0"
           />
 
-          <div className="relative z-10 h-[450px] w-[450px] overflow-hidden rounded-full">
+          <div className="relative z-10 h-[475px] w-[475px] overflow-hidden rounded-full">
             <Image
               src="/images/meeting-1.png"
               alt="Meeting"
