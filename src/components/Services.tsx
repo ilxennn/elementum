@@ -2,7 +2,9 @@ import Image from "next/image";
 
 export default function Services() {
   return (
-    <section className="relative overflow-hidden">
+    <section className="relative overflow-hidden py-5">
+      <img src="/images/redline-bottom" alt="" 
+      className=""/>
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-24">
 
         {/* Left Image */}
@@ -14,12 +16,12 @@ export default function Services() {
             className="absolute left-[-60px] top-20 w-[120px] z-0"
           />
 
-          <div className="relative z-10 h-[475px] w-[475px] overflow-hidden rounded-full">
+          <div className="relative z-10 h-[500px] w-[500px] overflow-hidden rounded-full">
             <Image
               src="/images/meeting-2.png"
               alt="Team"
-              width={475}
-              height={475}
+              width={500}
+              height={500}
               className="h-full w-full object-cover"
             />
           </div>
@@ -27,7 +29,7 @@ export default function Services() {
         </div>
 
         {/* Right Content */}
-        <div className="max-w-2xl -translate-y-3">
+        <div className="max-w-2xl -translate-y-11">
 
           <div className="relative inline-block">
             <img
@@ -62,7 +64,7 @@ export default function Services() {
         <img
             src="/svg/triangle.svg"
             alt=""
-            className="absolute left-[80px] top-5 w-[180px] z-0"
+            className="absolute left-[85px] top-10 w-[200px] z-0"
           />
 
       </div>

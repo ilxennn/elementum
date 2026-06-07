@@ -58,7 +58,7 @@ export default function Hero() {
           />
       </div>
 
-        <div className="flex w-max animate-marquee gap-8 mt-18">
+        <div className="flex w-max animate-marquee gap-8 mt-45">
           <img src="/images/image-hero.png" alt="" className="w-[1500px]" />
           <img src="/images/image-hero.png" alt="" className="w-[1500px]" />
           <img src="/images/image-hero.png" alt="" className="w-[1500px]" />

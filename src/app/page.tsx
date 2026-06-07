@@ -5,6 +5,7 @@ import Services from "@/components/Services";
 import Testimonials from "@/components/Testimonials";
 import Newsletter from "@/components/Newsletter";
 import Footer from "@/components/Footer";
+import OfferSection from "@/components/OfferSection";
 
 export default function Home() {
   return (
@@ -23,8 +24,14 @@ export default function Home() {
       <img
             src="/svg/triangle.svg"
             alt=""
-            className="absolute left-110 top-550 w-[180px] z-20"
+            className="absolute left-115 top-560 w-[180px] z-20"
           />
+      <img
+            src="/svg/redline-bottom.svg"
+            alt=""
+            className="absolute mx-0 right-[-40px] top-590 w-[750px] z-0"
+          />
+      <OfferSection />
       <Testimonials />
       <Newsletter />
       <Footer />

@@ -20,6 +20,14 @@ body {
   font-family: "Satoshi", sans-serif;
 }
 
+html {
+  scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
 .font-gerbil {
   font-family: "Gerbil", sans-serif;
 }
