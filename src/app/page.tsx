@@ -20,6 +20,11 @@ export default function Home() {
           />
       </div>
       <Services />
+      <img
+            src="/svg/triangle.svg"
+            alt=""
+            className="absolute left-110 top-550 w-[180px] z-20"
+          />
       <Testimonials />
       <Newsletter />
       <Footer />

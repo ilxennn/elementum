@@ -23,6 +23,7 @@ export default function Services() {
               className="h-full w-full object-cover"
             />
           </div>
+
         </div>
 
         {/* Right Content */}
@@ -57,6 +58,12 @@ export default function Services() {
             />
           </button>
         </div>
+
+        <img
+            src="/svg/triangle.svg"
+            alt=""
+            className="absolute left-[80px] top-5 w-[180px] z-0"
+          />
 
       </div>
     </section>
