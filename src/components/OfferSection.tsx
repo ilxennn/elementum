@@ -15,7 +15,7 @@ const offers = [
 
 export default function OfferSection() {
   return (
-    <section className="relative py-50">
+    <section className="relative py-40">
       <div className="mx-auto max-w-7xl">
 
         {/* Heading */}
@@ -79,7 +79,7 @@ export default function OfferSection() {
         <img
           src="/images/sticker.png"
           alt=""
-          className="absolute bottom-77 right-[459px] w-[125px] z-0"
+          className="absolute bottom-42 right-[459px] w-[125px] z-0"
         />
 
       </div>

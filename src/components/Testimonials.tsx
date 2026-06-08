@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Testimonials() {
   return (
-    <section className="relative mx-10 py-15 overflow-hidden">
+    <section className="relative mx-10 my-15 py-15 overflow-hidden">
       <div className="mx-auto max-w-7xl">
 
         {/* Heading */}

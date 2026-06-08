@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function FeatureSection() {
   return (
-    <section className="relative py-32 overflow-hidden">
+    <section className="relative py-10 overflow-hidden">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-20">
 
         {/* Left Content */}

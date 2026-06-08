@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Services() {
   return (
-    <section className="relative overflow-hidden py-5">
+    <section className="relative overflow-hidden py-20">
       <img src="/images/redline-bottom" alt="" 
       className=""/>
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-24">

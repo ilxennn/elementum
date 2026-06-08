@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden px-6 pt-20 pb-24">
+    <section className="relative overflow-hidden px-6 pt-20 pb-50">
       <div className="mx-auto max-w-6xl">
         <div className="relative">
           {/* Yellow SVG Line */}

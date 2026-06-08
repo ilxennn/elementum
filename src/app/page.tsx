@@ -17,7 +17,7 @@ export default function Home() {
         <img
             src="/svg/redline-top.svg"
             alt=""
-            className="absolute mx-0 right-[-40px] top-400 w-[1300px] z-0"
+            className="absolute mx-0 right-[-40px] top-425 w-[1300px] z-0"
           />
       </div>
       <Services />
