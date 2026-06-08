@@ -21,6 +21,13 @@ export default function Home() {
           />
       </div>
       <Services />
+      <div>
+        <img
+            src="/images/blur.png"
+            alt=""
+            className="absolute mx-0 translate-x-4/4 top-300 w-[500px] z-0"
+          />
+      </div>
       <img
             src="/svg/triangle.svg"
             alt=""
