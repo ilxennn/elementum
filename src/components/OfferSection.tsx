@@ -15,7 +15,7 @@ const offers = [
 
 export default function OfferSection() {
   return (
-    <section className="relative py-75">
+    <section className="relative py-50">
       <div className="mx-auto max-w-7xl">
 
         {/* Heading */}
